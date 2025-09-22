@@ -20,7 +20,7 @@ function SearchBar(props) {
           <label htmlFor="name-field">Name:</label>
           <input
             className="form-control"
-            id="name-field"
+            id="search-name-field"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)} />
@@ -29,7 +29,7 @@ function SearchBar(props) {
           <label htmlFor="price-field">Max Price:</label>
           <input
             className="form-control"
-            id="price-field"
+            id="search-price-field"
             type="text"
             value={maxprice}
             onChange={(e) => setMaxPrice(e.target.value)} />
@@ -38,7 +38,7 @@ function SearchBar(props) {
           <label htmlFor="type-field">Type:</label>
           <input
             className="form-control"
-            id="type-field"
+            id="search-type-field"
             type="text"
             value={type}
             onChange={(e) => setType(e.target.value)} />
@@ -47,7 +47,7 @@ function SearchBar(props) {
           <label htmlFor="brand-field">Brand:</label>
           <input
             className="form-control"
-            id="brand-field"
+            id="search-brand-field"
             type="text"
             value={brand}
             onChange={(e) => setBrand(e.target.value)} />
