@@ -13,6 +13,20 @@
       "price": "11.99",
       "type": "rgp",
       "brand": "xbox"
+    },
+    {
+      "id": "69ae",
+      "name": "HVT3800",
+      "price": "38000",
+      "type": "Harvester",
+      "brand": "Holland"
+    },
+    {
+      "id": "7ca1",
+      "name": "wolfenstein 2",
+      "price": "25",
+      "type": "shooter",
+      "brand": "xbox"
     }
   ]
 }
